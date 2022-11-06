@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+link{
+    background-color: none;
+}
+body{
+    background-image: url("image/WD2_CA_16_NewDawn.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-size: 100vw, 100vh;
+}
+body, a:hover {
+    cursor: 
+    url(https://static.wikia.nocookie.net/k-on/images/0/09/Small_pick.png/revision/latest?cb=20201127053710),
+    pointer;
+}
+nav{
+    display: flex;
+}
+.navbar{
+    padding: 5px;
+}
+.navbar>a{
+    color: lime;
+}
+.navbar>a:hover{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+#banner{
+    height: 30vh;
+    width: 100vw;
+}
+#link{
+    color: black;
+}
+#link:hover{
+    color: white;
+}
+form{
+    color: lightblue;
+}
+table{
+    border: 2px black;
+    border-style: dotted;
+}

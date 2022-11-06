@@ -3,22 +3,29 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>ini buatan kenji</title>
-		<link rel="icon" href="./image/image.jpg" type="image/gif">
+		<link rel="icon" href="./image/favicon.ico" type="image/gif">
+		<link rel="stylesheet" href="./css/uc1.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 	</head>
 	
 	<!--halaman berita-->
 	
 	<body>
-		<h1 style="background-color: limegreen; color : black">kumpulan artikel berdasarkan sumber</h1>
-		<style>
-		a.navbar:hover{
-			background-color: red;
-		}
-		</style>
-		<nav>
-			<a href="./uji coba.html" class="navbar">This page</a>
-			<a href="./uji coba 2.html" class="navbar">Next page</a>
-			<a href="./uji coba 3.html"  class="navbar">Last page</a>
+		<nav class="navbar">
+			<div class="container-fluid navbar-expand-lg" id="judul">
+				<span class="navbar-brand mb-0 h1 fs-1">kumpulan artikel berdasarkan sumber</span>
+			</div>
+			<ul class="pagination">
+				<li class="page-item active">
+					<a class="page-link" href="./uji coba.html" class="navbar">This page</a>
+				</li>
+				<li class="page-item">
+					<a class="page-link" href="./uji coba 2.html" class="navbar">Next page</a>
+				</li>
+				<li class="page-item">
+					<a class="page-link" href="./uji coba 3.html"  class="navbar">Last page</a>
+				</li>
+			</ul>
 		</nav>
 		
 		<ul>
@@ -89,10 +96,11 @@
 		
 	</body>
 
-	<footer>
-		<p>dibuat oleh : Anggara Kenji</p>
-		<p>Sumber didapat dari Pihak ketiga</p>
-	</footer>
-
+	<div class="container">
+		<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+			<p class="col-md-4 mb-0 text-muted">dibuat oleh : Anggara Kenji</p>
+			<p class="col-md-4 mb-0 text-muted">Sumber didapat dari Pihak ketiga</p>
+		</footer>
+	  </div>
 </html>
   

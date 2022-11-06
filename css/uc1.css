@@ -1,0 +1,7 @@
+#judul{
+    background-color: limegreen; 
+    color : black
+}
+.nav-item:hover{
+    background-color: red;
+}

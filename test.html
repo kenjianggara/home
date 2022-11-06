@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>testing</title>
+    <link rel="icon" href="image/favicon.ico">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        link{
+            background-color: none;
+        }
+        body{
+            background-image: url("image/WD2_CA_16_NewDawn.jpg");
+            width: 100vw;
+            height: 100vh;
+            background-size: 100vw, 100vh;
+        }
+        body, a:hover {
+            cursor: 
+            url(https://static.wikia.nocookie.net/k-on/images/0/09/Small_pick.png/revision/latest?cb=20201127053710),
+            pointer;
+        }
+        nav{
+            display: flex;
+        }
+        .navbar{
+            padding: 5px;
+        }
+        .navbar>a{
+            color: lime;
+        }
+        .navbar>a:hover{
+            color: white;
+        }
+        a{
+            text-decoration: none;
+        }
+        #banner{
+            height: 30vh;
+            width: 100vw;
+        }
+        #link{
+            color: black;
+        }
+        #link:hover{
+            color: white;
+        }
+        form{
+            color: lightblue;
+        }
+        table{
+            border: 2px black;
+            border-style: dotted;
+        }
+    </style>
+</head>
+<body>
+    <img src="image/WD2-MURAL-2.jpg" alt="header-banner" id="banner">
+        <nav>
+            <div class="navbar"><a href="https://www.netflix.com/browse/my-list" target="_blank">Netflix</a></div>
+            <div class="navbar"><a href="https://binusmaya.binus.ac.id/newStudent/#/index" target="_blank">Bimay</a></div>
+            <div class="navbar"><a href="http://www.youtube.com" target="_blank">Youtube</a></div>
+            <div class="navbar"><a href="https://industry.socs.binus.ac.id/learning-plan/" target="_blank">internship</a></div>
+            <div class="navbar"><a href="https://www.udemy.com/" target="_blank">Udemy</a></div>
+        </nav>  
+    </div>
+    <br>
+    <center>
+        <h1 style="font-size: 500%">Welcome to My Testing page</h1>
+        <br>
+        <h1><a href="./uji coba.html" id="link">Click here to enter to my page</a></h1>
+    </center>
+    <br>
+    <br>
+    <form>
+        <table>
+            <td>
+                <p>Name :</p>
+                <input type="text" name="nama" placeholder="Input your name here!">
+                <br>
+                <p>Suggestion :</p>
+                <textarea cols="50" rows="10" name="saran" placeholder="Your suggestion here!"></textarea>
+                <br>
+                <button type="submit" onclick="tombol()">Submit</button>
+            </td>
+        </table>
+    </form>
+    <script>
+        function tombol() {
+            alert("Terimakasih!");
+        }
+    </script>
+</body>
+<footer>
+    <p>Created By : Anggara Kenji</p>
+</footer>
+</html> 

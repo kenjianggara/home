@@ -14,7 +14,7 @@ body{
 body, a:hover {
     cursor: 
     url(https://static.wikia.nocookie.net/k-on/images/0/09/Small_pick.png/revision/latest?cb=20201127053710),
-    pointer;
+    auto;
 }
 nav{
     display: flex;

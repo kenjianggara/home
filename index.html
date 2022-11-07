@@ -31,18 +31,25 @@
         <table>
             <td>
                 <p>Name :</p>
-                <input type="text" name="nama" placeholder="Input your name here!">
+                <input type="text" name="nama" placeholder="Input your name here!" id="names">
                 <br>
                 <p>Suggestion :</p>
-                <textarea cols="50" rows="10" name="saran" placeholder="Your suggestion here!"></textarea>
+                <textarea cols="50" rows="10" name="saran" placeholder="Your suggestion here!" id="suggestions"></textarea>
                 <br>
-                <button type="submit" onclick="tombol()">Submit</button>
+                <button type="submit" onclick="tombol(event)">Submit</button>
             </td>
         </table>
     </form>
+    <!-- <input type="text" name="nama" placeholder="Input your name here!" id="names" value="kenji"> -->
     <script>
+        
         function tombol() {
-            alert("Terimakasih!");
+            event.preventDefault();
+            var name = document.getElementById("names");
+            var suggestion = document.getElementById("suggestions");
+            console.log("nama: "+name.value+"\n"+"saran: "+suggestion.value);
+
+            alert("Terimakasih!\n");
         }
     </script>
 </body>

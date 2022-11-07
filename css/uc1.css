@@ -2,6 +2,6 @@
     background-color: limegreen; 
     color : black
 }
-.nav-item:hover{
+a.page-link:hover{
     background-color: red;
 }

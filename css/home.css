@@ -1,50 +1,81 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-link{
-    background-color: none;
-}
-body{
+
+body {
     background-image: url("../image/WD2_CA_16_NewDawn.jpg");
     width: 100vw;
     height: 100vh;
-    background-size: 100vw, 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
 body, a:hover {
-    cursor: 
-    url("../image/Small_pick.webp"),
-    auto;
+    cursor: url("../image/Small_pick.webp"), auto;
 }
-nav{
+
+nav {
     display: flex;
+    justify-content: flex-start; /* Navbar mengarah ke kiri */
+    gap: 10px; /* Jarak antar elemen navbar */
+    padding: 10px 20px; /* Tambahkan padding kanan agar tidak mepet */
 }
-.navbar{
+
+.navbar {
     padding: 5px;
 }
-.navbar>a{
+
+.navbar > a {
     color: lime;
+    font-weight: bold;
 }
-.navbar>a:hover{
+
+.navbar > a:hover {
     color: white;
 }
-a{
+
+a {
     text-decoration: none;
 }
-#banner{
+
+#banner {
     height: 30vh;
     width: 100vw;
+    object-fit: cover;
 }
-#link{
+
+#link {
     color: black;
+    font-size: 20px;
+    font-weight: bold;
 }
-#link:hover{
+
+#link:hover {
     color: white;
 }
-form{
-    color: lightblue;
+form {
+    padding: 15px;
+    max-width: 500px;
+    margin: auto;
 }
-table{
-    border: 2px black;
-    border-style: dotted;
+
+table {
+    backdrop-filter: blur(10px); /* Efek blur */
+    -webkit-backdrop-filter: blur(10px); /* Untuk kompatibilitas di Safari */
+    border-radius: 20px; /* Biar lebih estetik */
+    border: 2px dotted black;
+    padding: 10px;
+    width: 100%;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.2); /*Warna semi-transparan;*/
+    color: white; /* Warna teks */
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
 }
